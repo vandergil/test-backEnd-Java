@@ -1,0 +1,103 @@
+body {
+font-family:"verdana";
+}
+
+#container {
+  border:2px solid #A0331F;
+  text-align:left;
+  margin: 0 auto;
+  margin-top: 20px;
+  width:410px;
+  padding:25px;
+  border-radius: 5px 10px 15px 20px;
+  background-color: #f7eac3
+} 
+
+img{
+	max-width: 100%;
+	display: flex;
+	margin: 0 auto;
+	padding-top:5px;
+	position: relative;
+}
+
+h3{
+	font-size:25px;
+	font-family:"century gothic";	
+	 text-align:center;
+	 text-decoration: underline;
+}
+
+table {  
+	width:100%;
+}
+
+table tr {  
+	padding:3px;
+}
+
+table td{  
+	padding:3px;
+}
+
+.error{
+	font-size: 12px;
+	color:red;
+	font-weight: bold;
+	text-align:left;	
+}
+
+.msg-codinome{
+	font-size: 15px;
+	color:#B54131;
+	font-weight: bold;
+ text-decoration: underline;
+}
+
+
+input{
+	font-size: 15px;
+	font-family:"century gothic";
+	padding:4px
+}
+
+input[type=radio]{	
+	height:20px;
+	width:20px;
+}
+
+.alinha-esquerda{
+	text-align:right;
+	padding-right: 3px;
+	font-size: 14px;
+	font-weight: bold;
+	
+}
+
+.alinha-centro{
+	text-align:center;
+	padding-right: 3px;
+	font-size: 14px;
+	font-weight: bold;
+	
+}
+
+.radio-text{
+	font-size: 14px;
+	font-family:"century gothic";
+
+}
+
+.botao{
+	width:130px;
+	height:30px;
+	font-size: 13px;
+	font-family:"century gothic";
+	padding:2px	
+	
+}
+
+.labelDisable{
+font-size: 15px;
+	font-family:"century gothic";
+}
